@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-lg
+}
+
+.projects img {
+    width: 200%;
+}
+
+/* color */
+.bg-primary {
+    background: #d3d6dc;
+}
+
+.bg-secondary {
+    background: #1E293B;
+}
+
+.bg-accent {
+    background: #3a3b86;
+}
+
+.text-accent {
+    color: #ffc310;
+    font-family: 'Alegreya Sans SC';
+}
+
+.text-head {
+    color: #4f4e4e;
+    font-family: 'Alegreya Sans SC';
+}
+
+
+nav li a {
+    @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+    color: #e0e1f4;
+}
+
+.mobile-nav {
+    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+
+/* hero */
+h1 {
+    font-family: 'Helvetica', cursive;
+    line-height: 1.5 !important;
+}
