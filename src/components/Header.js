@@ -14,7 +14,7 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:block">
-        <ul className="flex">
+        <ul className="flex pt-3">
           <li>
             <a className="no-underline font-bold  text-accent " href="/#about">About</a>
           </li>
@@ -33,23 +33,22 @@ const Header = () => {
       <nav
         className={!toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}
       >
+        <div className="bg-white">
         <ul className="flex flex-col">
           <li>
-            <a href="/#about">About</a>
+            <a className=" no-underline text-accent" href="/#about">About</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a className="no-underline text-accent" href="/#projects">Projects</a>
           </li>
+         
           <li>
-            <a href="/#blog">Blog</a>
+            <a className="no-underline text-accent"href="/#contact">Contact</a>
           </li>
-          <li>
-            <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="/#resume">Resume</a>
-          </li>
+        
         </ul>
+        </div>
+
       </nav>
 
       {/* Toggle button */}

@@ -10,19 +10,19 @@ import {
 
 const Hero = () => {
   return (
-    <section className="bg-primary px-5 text-black py-32 bg-white border">
-      <div className="border  container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
+    <section className="bg-primary px-5 text-black pt-32 bg-white">
+      <div className=" container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
-          <h1 className="text-4xl lg:text-6xl text-head">
-     WELCOME TO MIMINIVERSE <br />
-            Developer
-          </h1>
+          <h1 className="text-4xl lg:text-4xl text-head pl-10">
+      WELCOME TO <br /> MIMINIVERSE <br />
+            Developer ()
+          </h1>            
 
-          <p className="py-5">
+          <p className="py-3">
             I am proficient in JavaScript, React.js and Tailwind CSS
           </p>
 
-          <div className="flex py-5 ">
+          <div className="flex py-1 pl-10 ">
             <a
               href="https://twitter.com/CoderAmrin"
               className="pr-4 inline-block text-accent hover:text-white"
