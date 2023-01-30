@@ -8,38 +8,53 @@ import {
   AiOutlineFacebook,
 } from "react-icons/ai";
 
+import {TypeAnimation} from 'react-type-animation'
+
 const Hero = () => {
   return (
     <section className="bg-primary px-5 text-black pt-32 bg-white">
       <div className=" container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
-          <h1 className="text-4xl lg:text-4xl text-head pl-10">
-      WELCOME TO <br /> MIMINIVERSE <br />
-            Developer ()
+          <h1 className="text-4xl lg:text-4xl text-head pl-20">
+          Welcome To 
+          <br />
+          <span className="text-yellow-400">Miminiverse</span>
+          
+            <TypeAnimation 
+            sequence={[
+               "Designer ()", 2000, "Developer ()", 2000, () => {
+                console.log("Done Typing")
+              }
+            ]}
+            cursor={true}
+            repeat={Infinity}
+            style={{fontSize: '1em'}}
+            
+            />
           </h1>            
 
-          <p className="py-3">
+          <p className="py-3 text-accent">
             I am proficient in JavaScript, React.js and Tailwind CSS
           </p>
 
-          <div className="flex py-1 pl-10 ">
+          <div className="flex py-1 pl-24 ">
             <a
               href="https://twitter.com/CoderAmrin"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
             </a>
             <a
               href="https://www.youtube.com/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
               <AiOutlineYoutube size={40} />{" "}
             </a>
             <a
               href="https://www.facebook.com/"
-              className="pr-4 inline-block text-accent hover:text-white"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
               <AiOutlineFacebook size={40} />{" "}

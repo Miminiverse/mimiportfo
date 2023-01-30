@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary bg-white text-black fixed w-full z-10">
-      <a href="/" className="no-underline logo text-2xl font-bold text-accent">
+      <a href="/" className="no-underline logo text-2xl text-accent">
         
       </a>
 
@@ -16,14 +16,14 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex pt-3">
           <li>
-            <a className="no-underline font-bold  text-accent " href="/#about">About</a>
+            <a className="no-underline text-accent hover:text-yellow-400 " href="/#about">About</a>
           </li>
           <li>
-            <a className="no-underline font-bold  text-accent" href="/#projects">Projects</a>
+            <a className="no-underline text-accent hover:text-yellow-400 " href="/#projects">Projects</a>
           </li>
 
           <li>
-            <a className="no-underline font-bold text-accent" href="/#contact">Contact</a>
+            <a className="no-underline text-accent hover:text-yellow-400 " href="/#contact">Contact</a>
           </li>
 
         </ul>

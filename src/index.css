@@ -28,13 +28,13 @@ body {
 }
 
 .text-accent {
-    color: #ffc310;
-    font-family: 'Alegreya Sans SC';
+    color: #4f4e4e;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .text-head {
     color: #4f4e4e;
-    font-family: 'Alegreya Sans SC';
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 
@@ -43,16 +43,15 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #e0e1f4;
+    color: #ffc310;
 }
 
 .mobile-nav {
     @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
 
-
 /* hero */
 h1 {
-    font-family: 'Helvetica', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.5 !important;
 }
