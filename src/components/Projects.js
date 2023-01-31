@@ -16,11 +16,12 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className="max-w-6 mx-auto px-5 mt-32 text-center">
+
+      <div className="max-w-6xl mx-auto px-5 mt-32 text-center">
         <h2 className="text-4xl text-center text-accent"> Let's take a Look</h2>
 
       <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
-        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-yellow-400 md:w-1/3">
+        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" />
           <p>
         Line 3:8:   'devlog' is defined but never used                                                                        
@@ -28,7 +29,9 @@ const Projects = () => {
         Line 9:9:   'projects' is assigned a value but never used 
           </p>
         </div>
-        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-yellow-400 md:w-1/3">
+        <br/>
+        <br/>
+        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" />
           <p>
         Line 3:8:   'devlog' is defined but never used                                                                         
@@ -36,7 +39,9 @@ const Projects = () => {
         Line 9:9:   'projects' is assigned a value but never used 
           </p>
         </div>
-        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-yellow-400 md:w-1/3">
+        <br/>
+        <br/>
+        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" />
           <p>
           Line 3:8:   'devlog' is defined but never used                                                                        

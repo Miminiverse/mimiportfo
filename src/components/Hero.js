@@ -3,9 +3,10 @@ import HeroImg from "../assets/hero-img.png";
 import babyyoda from "../assets/babyyoda.png";
 
 import {
+  AiOutlineLinkedin,
+  AiOutlineGithub,
   AiOutlineTwitter,
-  AiOutlineYoutube,
-  AiOutlineFacebook,
+
 } from "react-icons/ai";
 
 import {TypeAnimation} from 'react-type-animation'
@@ -50,14 +51,14 @@ const Hero = () => {
               className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
-              <AiOutlineYoutube size={40} />{" "}
+              <AiOutlineGithub size={40} />{" "}
             </a>
             <a
               href="https://www.facebook.com/"
               className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <AiOutlineLinkedin size={40} />{" "}
             </a>
           </div>
 
