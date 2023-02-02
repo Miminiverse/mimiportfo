@@ -1,5 +1,4 @@
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
 import panda from "../assets/panda.png";
 
 const Projects = () => {
@@ -22,17 +21,20 @@ const Projects = () => {
 
       <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
-          <img src={panda} className="w-16 -mt-14" />
+          <img src={panda} className="w-16 -mt-14" alt="panda"/>
           <p>
-        Line 3:8:   'devlog' is defined but never used                                                                        
-        Line 4:8:   'getInspirred' is defined but never used                                                                  
-        Line 9:9:   'projects' is assigned a value but never used 
+          Blog app with Oauth login with Google
+          <br />
+          Each user has their own view which they can post/edit/delete
+          <br />
+          Backend: API from Django Rest Framework 
+          Frontend: React
           </p>
         </div>
         <br/>
         <br/>
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
-          <img src={panda} className="w-16 -mt-14" />
+          <img src={panda} className="w-16 -mt-14" alt=""/>
           <p>
         Line 3:8:   'devlog' is defined but never used                                                                         
         Line 4:8:   'getInspirred' is defined but never used                                                                 
@@ -42,7 +44,7 @@ const Projects = () => {
         <br/>
         <br/>
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
-          <img src={panda} className="w-16 -mt-14" />
+          <img src={panda} className="w-16 -mt-14" alt=""/>
           <p>
           Line 3:8:   'devlog' is defined but never used                                                                        
           Line 4:8:   'getInspirred' is defined but never used                                                                  
