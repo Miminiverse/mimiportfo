@@ -41,13 +41,13 @@ const Search  = () => {
         onSearchInput={handleSearchInput}
         onSearchSubmit={handleSearchSubmit}
         />
-        <div className="max-w-6xl text-center">
+        <div className="max-w-6xl mx-auto text-center">
             {searchList.slice(0,5).map ((item)=> (
                 <ul
                 key={item.objectID}
                 >
                 <a 
-                className="no-underline pr-4 inline-block text-accent hover:text-yellow-400"
+                className="no-underline pr-4 inline-block text-accent hover:text-yellow-400 text-center"
                 href={item.url}
                 target="_blank"
                 >{item.title}</a> ---
