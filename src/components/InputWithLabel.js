@@ -4,7 +4,7 @@ import {
   } from "react-icons/ai";
 
 
-export default function InputWithLabel ({id, value, type="text", setSeachText, onSearchInput, onSearchSubmit, }) {
+export default function InputWithLabel ({id, value, type="text", onSearchInput, onSearchSubmit, }) {
 
 
     return (

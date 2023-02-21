@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="hidden md:flex space-x-8">
         <ul className="flex pt-3">
           <li>
-            <a className="no-underline text-accent hover:text-yellow-400 " href="/#about">About</a>
+            <a className="no-underline text-accent hover:text-yellow-400 " href="#about">About</a>
           </li>
           <li>
             <a className="no-underline text-accent hover:text-yellow-400 " href="/#projects">Projects</a>

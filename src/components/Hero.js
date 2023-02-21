@@ -7,7 +7,10 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
 
+
 } from "react-icons/ai";
+
+
 
 import {TypeAnimation} from 'react-type-animation'
 
@@ -23,7 +26,7 @@ const Hero = () => {
           
             <TypeAnimation 
             sequence={[
-               "Designer ()", 2000, "Developer ()", 2000, () => {
+               "Portfolio ()", 2000, "Resume ()", 2000, () => {
                 console.log("Done Typing")
               }
             ]}
@@ -35,7 +38,9 @@ const Hero = () => {
           </h1>            
 
           <p className="py-3 text-accent">
-            I am proficient in JavaScript, React.js and Tailwind CSS
+            Hi! I am glad to have you as my guest. This is my very first website 
+            with some cool features. 
+            I hope you can know me better after checking some of my proudest projects. 
           </p>
 
           <div className="flex py-1 pl-24 ">

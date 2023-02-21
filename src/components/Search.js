@@ -5,8 +5,12 @@ import InputWithLabel from './InputWithLabel';
 const Search  = () => {
     const API_ENDPOINT = "https://hn.algolia.com/api/v1/search?query="
     const [searchList, setSearchList] = useState([]) 
-    const [searchText, setSearchText] = useState('')
+    const [searchText, setSearchText] = useState(localStorage.getItem('search'))
     const [url, setUrl] = useState(`${API_ENDPOINT}${searchText}`)
+
+    useEffect(() => {
+        localStorage.setItem('search', searchText)
+    })
 
 
     function handleSearchInput (e) {

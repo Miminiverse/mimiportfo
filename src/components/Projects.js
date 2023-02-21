@@ -1,6 +1,8 @@
 import React from "react";
 import panda from "../assets/panda.png";
-
+import {DiPython, DiHtml5, DiReact, DiDjango} from "react-icons/di";
+import { SiJavascript, SiCsswizardry } from "react-icons/si";
+import {AiOutlinePlus} from "react-icons/ai";
 const Projects = () => {
   const projects = [
     {
@@ -20,6 +22,24 @@ const Projects = () => {
         <h2 className="text-4xl text-center text-accent"> Let's take a Look</h2>
 
       <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+        <br/>
+        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <img src={panda} className="w-16 -mt-14" alt=""/>
+          <div>
+          <div className="flex">
+              <DiPython size={40} /> <DiDjango className="pb-3"size={60} />
+          </div>
+              {" "}<DiHtml5 size={30} />{" "}
+              <br />
+              {" "}<SiCsswizardry size={30} />{" "}
+              <br />
+              <div className="flex">
+              <SiJavascript size={30} /> <DiReact className="ml-4" size={30} />
+              </div>
+          </div>
+        </div>
+        <br/>
+        <br/>
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" alt="panda"/>
           <p>
@@ -36,16 +56,6 @@ const Projects = () => {
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" alt=""/>
           <p>
-        Line 3:8:   'devlog' is defined but never used                                                                         
-        Line 4:8:   'getInspirred' is defined but never used                                                                 
-        Line 9:9:   'projects' is assigned a value but never used 
-          </p>
-        </div>
-        <br/>
-        <br/>
-        <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
-          <img src={panda} className="w-16 -mt-14" alt=""/>
-          <p>
           Line 3:8:   'devlog' is defined but never used                                                                        
           Line 4:8:   'getInspirred' is defined but never used                                                                  
           Line 9:9:   'projects' is assigned a value but never used 
@@ -53,20 +63,6 @@ const Projects = () => {
         </div>
       </div>
       </div>
-
-
-
-
-
-
-   
-
-
-
-
-
-
- 
       <br />
     </section>
   );
