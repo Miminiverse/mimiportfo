@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => setToggle(!toggle);
@@ -23,7 +22,7 @@ const Header = () => {
           </li>
 
           <li>
-            <a className="no-underline text-accent hover:text-yellow-400 " href="/#contact">Contact</a>
+            <a target="_blank"className="no-underline text-accent hover:text-yellow-400 " href="/resume">Resume</a>
           </li>
 
         </ul>
@@ -50,7 +49,7 @@ const Header = () => {
         " >
           <a className="no-underline text-accent hover:text-yellow-400" href="#">About</a>
           <a className="no-underline text-accent hover:text-yellow-400" href="#">Projects</a>
-          <a className="no-underline text-accent hover:text-yellow-400" href="#">Contact</a>
+          <a className="no-underline text-accent hover:text-yellow-400" href="/resume">Resume</a>
         </div>
       </div>
       </nav>

@@ -8,7 +8,7 @@ const Contact = () => {
           Contact Me
         </h2>
         <p className="text-accent text-black" >
-          I am currently open for a fulltime Frontend Developer role. If you
+          I am currently looking for an internship/apprenticeship for Web Development role. If you
           want to discuss about that feel free to email me.
         </p >
         <p className="pb-4 text-accent text-black">

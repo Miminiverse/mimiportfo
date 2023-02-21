@@ -6,7 +6,6 @@ import {
 
 export default function InputWithLabel ({id, value, type="text", onSearchInput, onSearchSubmit, }) {
 
-
     return (
         <>
 

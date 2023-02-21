@@ -1,16 +1,11 @@
 import React from "react";
-import HeroImg from "../assets/hero-img.png";
 import babyyoda from "../assets/babyyoda.png";
 
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
-  AiOutlineTwitter,
-
-
+  AiOutlineSlackSquare,
 } from "react-icons/ai";
-
-
 
 import {TypeAnimation} from 'react-type-animation'
 
@@ -38,32 +33,36 @@ const Hero = () => {
           </h1>            
 
           <p className="py-3 text-accent">
-            Hi! I am glad to have you as my guest. This is my very first website 
-            with some cool features. 
-            I hope you can know me better after checking some of my proudest projects. 
+          Dear guest! 
+          <br/>
+          I'm thrilled to have you here on my first website - 
+          think of it as the digital version of my 'baby steps'. 
+          I've added some nifty features that even my monkey would be impressed by, 
+          and I hope you'll have a blast exploring them.
           </p>
 
           <div className="flex py-1 pl-24 ">
             <a
-              href="https://twitter.com/CoderAmrin"
-              className="pr-4 inline-block text-accent hover:text-yellow-400"
-            >
-              {" "}
-              <AiOutlineTwitter size={40} />{" "}
-            </a>
-            <a
-              href="https://www.youtube.com/"
+              target="_blank"
+              href="https://github.com/Miminiverse"
               className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
               <AiOutlineGithub size={40} />{" "}
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="#"
               className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
               <AiOutlineLinkedin size={40} />{" "}
+            </a>
+            <a
+              href="#"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
+            >
+              {" "}
+              <AiOutlineSlackSquare size={40} />{" "}
             </a>
           </div>
 

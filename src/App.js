@@ -1,25 +1,17 @@
-
 import './index.css';
-import Hero from './components/Hero'
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Search from './components/Search';
-import About from './components/About';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <>
-    <Header />
-    <Hero />
-    <Search />
-    <Projects />
-    <About />
-    <Contact />
-
-
-    </>
-
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+    </BrowserRouter>
+   
   );
 }
 
