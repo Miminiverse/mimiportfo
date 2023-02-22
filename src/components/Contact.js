@@ -8,11 +8,12 @@ const Contact = () => {
           Contact Me
         </h2>
         <p className="text-accent text-black" >
-          I am currently looking for an internship/apprenticeship for Web Development role. If you
-          want to discuss about that feel free to email me.
+          I am currently looking for an internship/apprenticeship for Web Development role. 
+          Please email me for further discussion.
         </p >
-        <p className="pb-4 text-accent text-black">
-          <span className="font-bold">Email:</span> phamminhtam1402@gmail.com
+        <p className="pb-4 text-accent text-black hover:decoration-yelow-400">
+          <span className="font-bold ">Email: </span> 
+          <span className="underline decoration-yellow-400">minhtamphamtol@gmail.com</span>
         </p>
     
       </div>

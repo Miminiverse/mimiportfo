@@ -21,10 +21,10 @@ const About = () => {
         <br />
         <br />
           <p>
-            I dedicate most of my free time in building website with with Django and ReactJS
+            I dedicate most of my free time building website with <strong className="underline decoration-yellow-400">Django</strong> and <strong className="underline decoration-yellow-400">ReactJS</strong>
           </p>
           <p>
-          I wasn't born with a keyboard in my hand - but with some serious persistence and self-discipline, I'm convinced I can make waves in this field.
+          I wasn't born with a keyboard in my hand - but with some serious persistence and self-discipline, I'm convinced I can make waves in this field
           </p>
           <br />
       </div>

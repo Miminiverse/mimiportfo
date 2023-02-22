@@ -49,21 +49,9 @@ const Hero = () => {
             >
               {" "}
               <AiOutlineGithub size={40} />{" "}
+
             </a>
-            <a
-              href="#"
-              className="pr-4 inline-block text-accent hover:text-yellow-400"
-            >
-              {" "}
-              <AiOutlineLinkedin size={40} />{" "}
-            </a>
-            <a
-              href="#"
-              className="pr-4 inline-block text-accent hover:text-yellow-400"
-            >
-              {" "}
-              <AiOutlineSlackSquare size={40} />{" "}
-            </a>
+            <p className="italic text-black pt-2">Click me for Github repositories</p>
           </div>
 
           <a

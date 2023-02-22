@@ -45,7 +45,7 @@ const Search  = () => {
         onSearchInput={handleSearchInput}
         onSearchSubmit={handleSearchSubmit}
         />
-        <div className="max-w-6xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto text-center mb-2">
             {searchList.slice(0,5).map ((item)=> (
                 <ul
                 key={item.objectID}
