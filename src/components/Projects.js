@@ -85,7 +85,7 @@ const Projects = () => {
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" alt="panda"/>
           <div>
-          <h6> <a href="https://github.com/Miminiverse/graphql-task-app" className=" text-black" target="_blank" >
+          <h6> <a href="https://graphql-task-app.vercel.app/" className=" text-black" target="_blank" >
           GraphQL task app</a>
           </h6>
           <p>Front-end: ReactJS with MaterialUI</p>
