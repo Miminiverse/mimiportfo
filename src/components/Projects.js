@@ -48,7 +48,7 @@ const Projects = () => {
           <img src={panda} className="w-16 -mt-14" alt="panda"/>
           <div>
           <h6>Technologies & Tools used: </h6>
-          <p>Database & Storage: PostgreSQL, SQLite, AWS S3 </p>
+          <p>Data: GraphQL, PostgreSQL, SQLite, AWS S3 </p>
           <p>Hosting: Heroku, Digital Ocean, Vercel </p>
           <p>Container: Docker</p>
           <p>APIs: Postman</p>
@@ -85,12 +85,12 @@ const Projects = () => {
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" alt="panda"/>
           <div>
-          <h6> <a href="https://github.com/Miminiverse/starwars" className=" text-black" target="_blank" >
-          Displaying StarWars data</a>
+          <h6> <a href="https://github.com/Miminiverse/graphql-task-app" className=" text-black" target="_blank" >
+          GraphQL task app</a>
           </h6>
-          <p>Frontend: HTML, CSS and JS</p>
-          <p>Backend: Node.js</p>
-          <p>Data FETCH from an API</p>
+          <p>Front-end: ReactJS with MaterialUI</p>
+          <p>Back-end: GraphQL using Hygraph</p>
+          <p>State management: ApolloClient</p>
           </div>
         </div>
         <br/>
@@ -98,13 +98,13 @@ const Projects = () => {
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
           <img src={panda} className="w-16 -mt-14" alt=""/>
           <div>
-          <h6> <a href="https://github.com/Miminiverse/mimibose" className=" text-black" target="_blank" >
-            Amazon Price Tracking</a>
+          <h6> <a href="https://bore-api.vercel.app/" className=" text-black" target="_blank" >
+            What should you do if you are bored?</a>
           </h6>
-          <p>Build with Python</p>
-          <p>Library: Beautiful Soup</p>
-          <p>Automatic email sent to user every day</p>
-          <p>Deploy on Digital Ocean</p>
+          <p>Front-end: ReactJS</p>
+          <p>Fetching data from boreAPI</p>
+          <p>Generate new activities with every click</p>
+          <p>A list that user can save up to 3 activities in LocalStorage</p>
           </div>
         </div>
       </div>
@@ -115,3 +115,37 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+// extra1
+{/* <div>
+<h6> <a href="https://github.com/Miminiverse/boreAPI" className=" text-black" target="_blank" >
+  Bore API</a>
+</h6>
+<p>Getting random activities</p>
+<p>Saving in List using LocalStorage</p>
+<p>User can remove the activities</p>
+<p>Deploy on Digital Ocean</p>
+</div> */}
+
+// extra2
+{/* <div>
+<h6> <a href="https://github.com/Miminiverse/boreAPI" className=" text-black" target="_blank" >
+  Bore API</a>
+</h6>
+<p>Container Tracking (APM terminal)</p>
+<p>User enter the container</p>
+<p>Returning info of each container</p>
+
+</div> */}
+
+// extra2
+{/* <div>
+<h6> <a href="https://github.com/Miminiverse/boreAPI" className=" text-black" target="_blank" >
+  GraphQL Task App  </a>
+</h6>
+<p>Container Tracking (APM terminal)</p>
+<p>User enter the container</p>
+<p>Returning info of each container</p>
+
+</div> */}
