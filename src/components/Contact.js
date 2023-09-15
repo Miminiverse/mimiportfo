@@ -29,7 +29,9 @@ const Contact = () => {
             fsjay@hotmail.com
           </span>
           <br />
-          <span className=" decoration-yellow-400"></span>
+          <span className=" decoration-yellow-400">
+            Elijah Bernstein-Cooper
+          </span>
           <br />
           <span className=" decoration-yellow-400">
             Code The Dream mentor | Senior Software Engineer at MetaMetrics,
