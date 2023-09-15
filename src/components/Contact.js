@@ -29,6 +29,7 @@ const Contact = () => {
             fsjay@hotmail.com
           </span>
           <br />
+          <br />
           <span className=" decoration-yellow-400">
             Elijah Bernstein-Cooper
           </span>
