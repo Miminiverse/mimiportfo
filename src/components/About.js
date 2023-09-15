@@ -6,13 +6,9 @@ const About = () => {
   return (
     <section id="about">
       <div className="max-w-6xl mx-auto px-5 mt-10 text-center">
-        <h2 className="text-4xl text-center text-accent">Who am I?</h2>
         <br />
         <div>
-          <p>
-            {" "}
-            Hi, I'm Tam Pham--- currently an international student in the US
-          </p>
+          <p> I'm Tam Pham--- currently an international student in the US</p>
           <p>I am persuing a career to be a full-stack web developer </p>
           <p>I am inspired by beautiful and well-functional websites </p>
 
@@ -36,13 +32,11 @@ const About = () => {
             <strong className="underline decoration-yellow-400">
               Express.js
             </strong>{" "}
+            , <strong className="underline decoration-yellow-400">React</strong>{" "}
             and{" "}
-            <strong className="underline decoration-yellow-400">React</strong>
-          </p>
-          <p>
-            I wasn't born with a keyboard in my hand - but with some serious
-            persistence and self-discipline, I'm convinced I can make waves in
-            this field
+            <strong className="underline decoration-yellow-400">
+              Typescript
+            </strong>{" "}
           </p>
           <br />
         </div>
