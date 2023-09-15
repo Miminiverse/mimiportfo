@@ -7,7 +7,7 @@ import {
   AiOutlineSlackSquare,
 } from "react-icons/ai";
 
-import {TypeAnimation} from 'react-type-animation'
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -15,30 +15,32 @@ const Hero = () => {
       <div className=" container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-4xl text-head pl-20">
-          Welcome To 
-          <br />
-          <span className="text-yellow-400">Miminiverse</span>
-          
-            <TypeAnimation 
-            sequence={[
-               "Portfolio ()", 2000, "Resume ()", 2000, () => {
-                console.log("Done Typing")
-              }
-            ]}
-            cursor={true}
-            repeat={Infinity}
-            style={{fontSize: '1em'}}
-            
+            Welcome To
+            <br />
+            <span className="text-yellow-400">Miminiverse</span>
+            <TypeAnimation
+              sequence={[
+                "Portfolio ()",
+                2000,
+                "Resume ()",
+                2000,
+                () => {
+                  console.log("Done Typing");
+                },
+              ]}
+              cursor={true}
+              repeat={Infinity}
+              style={{ fontSize: "1em" }}
             />
-          </h1>            
+          </h1>
 
           <p className="py-3 text-accent">
-          Dear guest! 
-          <br/>
-          I'm thrilled to have you here on my first website - 
-          think of it as the digital version of my 'baby steps'. 
-          I've added some nifty features that even my monkey would be impressed by, 
-          and I hope you'll have a blast exploring them.
+            Dear guest!
+            <br />
+            I'm thrilled to have you here on my first website - think of it as
+            the digital version of my 'baby steps'. I've added some nifty
+            features that even my monkey would be impressed by, and I hope
+            you'll have a blast exploring them.
           </p>
 
           <div className="flex py-1 pl-24 ">
@@ -49,9 +51,21 @@ const Hero = () => {
             >
               {" "}
               <AiOutlineGithub size={40} />{" "}
-
             </a>
-            <p className="italic text-black pt-2">Click me for Github repositories</p>
+            <p className="italic text-black pt-2">
+              Click me for Github repositories
+            </p>
+          </div>
+          <div className="flex py-1 pl-24 ">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/minh-tam-pham-8b6ba2200/"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
+            >
+              {" "}
+              <AiOutlineLinkedin size={40} />{" "}
+            </a>
+            <p className="italic text-black pt-2">Click me for LinkedIn</p>
           </div>
 
           <a

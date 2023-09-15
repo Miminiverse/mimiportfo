@@ -2,11 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-secondary px-5 py-25" id="contact">
+    <section className="bg-slate-400 px-5 py-25" id="contact">
       <div className="text-center mx-auto">
-        <h2 className="text-2xl mb-3 mx-auto pt-4 text-yellow-400">
-          Contact Me
-        </h2>
+        <h2 className="text-2xl mb-3 mx-auto pt-4 ">Contact Me</h2>
         <p className="text-accent text-black">
           I am currently looking for an internship/apprenticeship for full-stack
           Web Development role. Please email me for further discussion.

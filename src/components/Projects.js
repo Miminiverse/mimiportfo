@@ -20,7 +20,7 @@ const Projects = () => {
 
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           <br />
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>
@@ -62,7 +62,7 @@ const Projects = () => {
           <br />
           <br />
 
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="panda" />
             <div>
               <h6>
@@ -110,7 +110,7 @@ const Projects = () => {
 
           <br />
           <br />
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>
@@ -150,7 +150,7 @@ const Projects = () => {
 
           <br />
 
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>
@@ -172,7 +172,7 @@ const Projects = () => {
           <br />
           <br />
 
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="panda" />
             <div>
               <h6>Technologies & Tools used: </h6>
@@ -189,7 +189,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-lightYellow md:w-1/3">
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>Languages</h6>
