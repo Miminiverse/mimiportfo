@@ -38,9 +38,7 @@ const Hero = () => {
             Dear guest!
             <br />
             I'm thrilled to have you here on my first website - think of it as
-            the digital version of my 'baby steps'. I've added some nifty
-            features that even my monkey would be impressed by, and I hope
-            you'll have a blast exploring them.
+            the digital version of my 'baby steps'.
           </p>
 
           <div className="flex py-1 pl-24 ">

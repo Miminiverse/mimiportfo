@@ -8,9 +8,8 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-5 mt-10 text-center">
         <br />
         <div>
-          <p> I'm Tam Pham--- currently an international student in the US</p>
-          <p>I am persuing a career to be a full-stack web developer </p>
-          <p>I am inspired by beautiful and well-functional websites </p>
+          <p> I'm Tam Pham --- currently an international student in the US</p>
+          <p>I am persuing a career to be a backend web developer </p>
 
           <Link
             target="_blank"

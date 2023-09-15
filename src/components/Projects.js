@@ -1,7 +1,7 @@
 import React from "react";
 import panda from "../assets/panda.png";
 import { DiPython, DiHtml5, DiReact, DiDjango } from "react-icons/di";
-import { SiJavascript, SiCsswizardry } from "react-icons/si";
+import { SiJavascript, SiCsswizardry, SiTypescript } from "react-icons/si";
 import { AiOutlinePlus, AiOutlineGithub } from "react-icons/ai";
 import { FaNode } from "react-icons/fa";
 const Projects = () => {
@@ -189,28 +189,30 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
+          <div className="flex flex-col items-center  p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
             <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
-              <h6>Languages</h6>
+              <h6>Languages/Frameworks</h6>
               <br />
 
               <div className="flex">
-                <DiHtml5 size={45} />{" "}
+                <DiHtml5 className="ml-7" size={45} />{" "}
                 <SiCsswizardry className="ml-4" size={45} />
               </div>
               <br />
               <div className="flex">
-                <SiJavascript size={45} />{" "}
+                <SiJavascript className="ml-7" size={45} />
                 <DiReact className="ml-4" size={50} />
               </div>
               <br />
-              <div className="flex items-center justify-center">
-                <FaNode size={55} />{" "}
+              <div className="flex">
+                <FaNode className="ml-7" size={55} />
+                <SiTypescript className="ml-3" size={45} />{" "}
               </div>
               <br />
               <div className="flex">
-                <DiPython size={50} /> <DiDjango className="pb-3" size={80} />
+                <DiPython className="ml-7" size={50} />{" "}
+                <DiDjango className="pb-3" size={80} />
               </div>
             </div>
           </div>
