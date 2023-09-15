@@ -12,9 +12,32 @@ const Contact = () => {
           Web Development role. Please email me for further discussion.
         </p>
         <p className="pb-4 text-accent text-black hover:decoration-yelow-400">
-          <span className="font-bold ">Email: </span>
           <span className="underline decoration-yellow-400">
             minhtamphamtol@gmail.com
+          </span>
+        </p>
+        <p className="pb-4 text-accent text-black hover:decoration-yelow-400">
+          <span className="font-bold ">References: </span>
+          <br />
+          <span className=" decoration-yellow-400">Frank Stepanski</span>
+          <br />
+          <span className=" decoration-yellow-400">
+            Code The Dream admin/mentor
+          </span>
+          <br />
+          <span className="underline decoration-yellow-400">
+            fsjay@hotmail.com
+          </span>
+          <br />
+          <span className=" decoration-yellow-400"></span>
+          <br />
+          <span className=" decoration-yellow-400">
+            Code The Dream mentor | Senior Software Engineer at MetaMetrics,
+            Inc.
+          </span>
+          <br />
+          <span className="underline decoration-yellow-400">
+            e.bernsteincooper@gmail.com
           </span>
         </p>
       </div>
