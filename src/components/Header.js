@@ -38,13 +38,13 @@ const Header = () => {
           </li>
 
           <li>
-            <a
+            {/* <a
               target="_blank"
               className="no-underline text-accent hover:text-yellow-400 "
               href="/resume"
             >
               Resume
-            </a>
+            </a> */}
           </li>
         </ul>
       </nav>
@@ -90,12 +90,12 @@ const Header = () => {
             >
               Blog
             </a>
-            <a
+            {/* <a
               className="no-underline text-accent hover:text-yellow-400"
               href="/resume"
             >
               Resume
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>

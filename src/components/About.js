@@ -10,22 +10,22 @@ const About = () => {
         <div>
           <p> I'm Tam Pham --- currently an international student in the US</p>
           <p>I am persuing a career to be a backend web developer </p>
-
-          <Link
-            target="_blank"
+          {/* <a
+            href="public/resume.pdf" // Make sure the path is correct
+            download
             className="no-underline pr-4 inline-block text-accent text-yellow-400 text-center"
-            to={"/resume"}
           >
-            <div className="flex">
+            <div className="flex flex-row items-center text-black">
               <FcIdea size={20} />{" "}
               <span>
                 <strong>Click me for resume, please!</strong>
               </span>{" "}
               <FcIdea size={20} />
             </div>
-          </Link>
+          </a> */}
+          {/* 
           <br />
-          <br />
+          <br /> */}
           <p>
             I dedicate most of my free time building website with{" "}
             <strong className="underline decoration-yellow-400">
