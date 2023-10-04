@@ -6,7 +6,7 @@ import {
   AiOutlineGithub,
   AiOutlineSlackSquare,
 } from "react-icons/ai";
-
+import { BsWordpress } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
@@ -15,14 +15,12 @@ const Hero = () => {
       <div className=" container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-4xl text-head pl-20">
-            Welcome To
-            <br />
-            <span className="text-yellow-400">Miminiverse</span>
+            <span>Tam Pham</span>
             <TypeAnimation
               sequence={[
-                "Portfolio ()",
+                "Builder ()",
                 2000,
-                "Resume ()",
+                "Creator ()",
                 2000,
                 () => {
                   console.log("Done Typing");
@@ -34,11 +32,11 @@ const Hero = () => {
             />
           </h1>
 
-          <p className="py-3 text-accent">
-            Dear guest!
-            <br />
-            I'm thrilled to have you here on my first website - think of it as
-            the digital version of my 'baby steps'.
+          <p className="py-3 pl-20 text-accent">
+            I thrive on turning user pain points into tangible solutions.
+            Starting with problems, I can write design document, sketch the
+            products on Figma and turn conceptual ideas into a clearly defined
+            series of sprints.
           </p>
 
           <div className="flex py-1 pl-24 ">
@@ -50,9 +48,7 @@ const Hero = () => {
               {" "}
               <AiOutlineGithub size={40} />{" "}
             </a>
-            <p className="italic text-black pt-2">
-              Click me for Github repositories
-            </p>
+            <p className="italic text-black pt-2">Github repositories</p>
           </div>
           <div className="flex py-1 pl-24 ">
             <a
@@ -63,23 +59,19 @@ const Hero = () => {
               {" "}
               <AiOutlineLinkedin size={40} />{" "}
             </a>
-            <p className="italic text-black pt-2">Click me for LinkedIn</p>
+            <p className="italic text-black pt-2">LinkedIn</p>
           </div>
-
-          <a
-            href="/#projects"
-            className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent"
-          >
-            See Projects
-          </a>
-        </div>
-
-        <div className="hero-img">
-          <img
-            src={babyyoda}
-            alt="coding illustration"
-            className="lgw-[80%] ml-auto"
-          />
+          <div className="flex py-1 pl-24 ">
+            <a
+              target="_blank"
+              href="https://minhtampham0703.wordpress.com/"
+              className="pr-4 inline-block text-accent hover:text-yellow-400"
+            >
+              {" "}
+              <BsWordpress size={40} />{" "}
+            </a>
+            <p className="italic text-black pt-2">Tam's Pham Blog</p>
+          </div>
         </div>
       </div>
     </section>

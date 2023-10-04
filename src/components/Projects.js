@@ -15,13 +15,12 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className="max-w-6xl mx-auto px-5 mt-32 text-center">
-        <h2 className="text-4xl text-center text-accent">Projects</h2>
+      <div className="max-w-6xl mx-auto px-3 text-center">
+        <h2 className="text-3xl text-center text-accent">Projects</h2>
 
-        <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+        <div className="flex flex-col mt-10 md:flex-row md:space-x-6">
           <br />
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>
                 {" "}
@@ -63,7 +62,6 @@ const Projects = () => {
           <br />
 
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="panda" />
             <div>
               <h6>
                 {" "}
@@ -111,7 +109,6 @@ const Projects = () => {
           <br />
           <br />
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="" />
             <div>
               <h6>
                 {" "}
@@ -141,79 +138,6 @@ const Projects = () => {
               >
                 Frontend: React, Tailwind CSS, Typescript
               </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
-          <br />
-
-          <br />
-
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="" />
-            <div>
-              <h6>
-                {" "}
-                <a
-                  href="https://github.com/Miminiverse/mimiportfo"
-                  className="text-black"
-                  target="_blank"
-                >
-                  Miminiverse Portfolio Website
-                </a>
-              </h6>
-              <p>Frontend: ReactJS</p>
-              <p>Deploy: Vercel </p>
-              <p>Responsive design: Tailwind CSS</p>
-            </div>
-          </div>
-
-          <br />
-          <br />
-
-          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="panda" />
-            <div>
-              <h6>Technologies & Tools used: </h6>
-              <p>
-                Database & Storage: MongoDB, GraphQL/Hygrapgh, PostgreSQL,
-                SQLite, AWS S3{" "}
-              </p>
-              <p>Real-time: Websocket | SocketIO </p>
-              <p>Hosting: Heroku, Digital Ocean, Vercel, Netlify, Render </p>
-              <p>Container: Docker</p>
-              <p>API testing: Postman</p>
-              <p>Version & Project management: Git | GitHub | Jira</p>
-              <p>Authentication: OAuth, Passport</p>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center  p-6 space-y-6 rounded-lg bg-slate-200 md:w-1/3">
-            <img src={panda} className="w-16 -mt-14" alt="" />
-            <div>
-              <h6>Languages/Frameworks</h6>
-              <br />
-
-              <div className="flex">
-                <DiHtml5 className="ml-7" size={45} />{" "}
-                <SiCsswizardry className="ml-4" size={45} />
-              </div>
-              <br />
-              <div className="flex">
-                <SiJavascript className="ml-7" size={45} />
-                <DiReact className="ml-4" size={50} />
-              </div>
-              <br />
-              <div className="flex">
-                <FaNode className="ml-7" size={55} />
-                <SiTypescript className="ml-3" size={45} />{" "}
-              </div>
-              <br />
-              <div className="flex">
-                <DiPython className="ml-7" size={50} />{" "}
-                <DiDjango className="pb-3" size={80} />
-              </div>
             </div>
           </div>
         </div>

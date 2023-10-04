@@ -8,8 +8,6 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-5 mt-10 text-center">
         <br />
         <div>
-          <p> I'm Tam Pham --- currently an international student in the US</p>
-          <p>I am persuing a career to be a backend web developer </p>
           {/* <a
             href="public/resume.pdf" // Make sure the path is correct
             download
@@ -26,7 +24,7 @@ const About = () => {
           {/* 
           <br />
           <br /> */}
-          <p>
+          {/* <p>
             I dedicate most of my free time building website with{" "}
             <strong className="underline decoration-yellow-400">
               Express.js
@@ -36,7 +34,7 @@ const About = () => {
             <strong className="underline decoration-yellow-400">
               Typescript
             </strong>{" "}
-          </p>
+          </p> */}
           <br />
         </div>
         <p></p>

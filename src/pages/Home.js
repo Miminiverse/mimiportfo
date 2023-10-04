@@ -9,12 +9,9 @@ import Search from "../components/Search";
 const Home = () => {
   return (
     <>
-    <Header />
-    <Hero />
-    <Search />
-    <Projects />
-    <About />
-    <Contact />
+      <Hero />
+      <Projects />
+      <Contact />
     </>
   );
 };
