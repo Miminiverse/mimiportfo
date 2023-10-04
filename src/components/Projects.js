@@ -35,10 +35,6 @@ const Projects = () => {
               <p>Text & Voice messaging with real-time translation</p>
               <p>Voice-To-Text and Text-To-Voice features</p>
               <p>AI-powered “@birdie” bot for user inquiries</p>
-              <p>
-                Features: User can search any topics they like & receive 5
-                suggestion links
-              </p>
               <a
                 href="https://github.com/Talckatoo/talckatoo_server"
                 className=" text-black"
