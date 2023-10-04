@@ -34,10 +34,12 @@ const Hero = () => {
           </h1>
 
           <p className="py-3 pl-20 text-accent">
-            I thrive on turning user pain points into tangible solutions.
-            Starting with problems, I can write design document, sketch the
-            products on Figma and turn conceptual ideas into a clearly defined
-            series of sprints.
+            I thrive on turning user’s pain points into tangible solutions.
+            Starting with problems, I can conduct user’s interviews, write
+            design document, sketch the products on Figma, build responsive
+            website with UI/UX in mind, perform and manage beta testing, release
+            frequent updates and turn conceptual ideas into a clearly defined
+            series of sprints. Happy to connect!
           </p>
 
           <div className="flex py-1 pl-24 ">

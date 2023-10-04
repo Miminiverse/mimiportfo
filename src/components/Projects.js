@@ -62,7 +62,7 @@ const Projects = () => {
               <h6>
                 {" "}
                 <a
-                  href="https://mentorup-81w4.onrender.com "
+                  href="https://www.youtube.com/watch?v=2UqX1BSH0hU"
                   className=" text-black"
                   target="_blank"
                 >
