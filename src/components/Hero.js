@@ -84,7 +84,7 @@ const Hero = () => {
               {" "}
               <MdOutgoingMail size={40} />{" "}
             </a>
-            <p className="italic text-black pt-2"> minhtamphamtol@gmail.com</p>
+            <p className="italic text-black pt-2"> tam.p@devlaunchers.com</p>
           </div>
         </div>
       </div>
