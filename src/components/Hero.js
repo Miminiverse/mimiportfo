@@ -78,7 +78,7 @@ const Hero = () => {
           <div className="flex py-1 pl-24 ">
             <a
               target="_blank"
-              href="minhtamphamtol@gmail.com"
+              href="tam.p@devlaunchers.com"
               className="pr-4 inline-block text-accent hover:text-yellow-400"
             >
               {" "}
